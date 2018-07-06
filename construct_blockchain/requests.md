@@ -4,6 +4,9 @@ $ curl -X POST -H "Content-Type: application/json" -d '{
 "recipient": "someone-other-address",
 "amount": 5
 }' "http://localhost:5000/transactions/new"
+```
+
+```
 {
   "message": "Transaction will be added to Block 2"
 }
@@ -12,6 +15,10 @@ $ curl -X POST -H "Content-Type: application/json" -d '{
 
 ```
 $ curl -X GET -H "Content-Type: application/json" "http://localhost:5000/chain"
+
+```
+
+```
 {
   "chain": [
     {
